@@ -1,0 +1,12 @@
+version: '3'
+services:
+  histogram:
+    build: ./Histogram
+    ports:
+      - "8051:8051"
+  barplot:
+    build: ./Barplot
+    ports:
+      - "8050:8050"
+    volumes:
+      - ./data:/app/data:ro
