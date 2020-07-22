@@ -1,0 +1,1 @@
+Just run `docker-compose up` from the root folder to run the two dashboards
